@@ -1,0 +1,79 @@
+
+ 
+ 
+ INHERITANCE:
+    It is the mechanism in which one class acquires the property of the another class.
+	With,inheritance we can reuse the fields and methods of the existing class.
+	It facilitates the Reusability.
+
+FOR EXAMPLE:
+    CHILD INHERITS THE TRAITS OF THE PARENTS.
+
+                          CLASS A 
+                
+                CLASS B    CLASS C     CLASS C    				
+ 
+ 
+ 
+ 
+ Multiple Inheritance is not allowed in java at the class level because it creates the ambiguity problem.
+ 
+ Multiple Inheritance is allowed in java at the Interface level.
+ 
+ 
+ 
+ POLYMORPHISM:
+    Polymorphism is one of the OOPS  feature that allows us to Perform a Single action in Different ways.
+	
+	Poly -Many , Morphism - Types.
+	
+	It can be classified into two types:
+	       COMPILE TIME POLYMORPHISM - OVERLOADING.
+		   RUN TIME POLYMORPHISM - OVERRIDING.
+	
+	
+OVERLOADING:[Same class Same Method But Different Parameters]
+   When two or more Methods in the Same class have the Same name but Different Parameters is called Overloading.
+   It is Compile time Polymorphism.Parameters are different.
+   
+OVERRIDING:[Same Method Different class with Same parameters]
+   The Method used to Provide the Specific implementation of the Method that is already provided by its Super class is called OVERRIDING.
+   It is Run Time Polymorphism.
+   Parameters are Same.
+   
+ABSTRACTION:
+  It is a process of Hiding the implementation details and showing only functionality to the user.
+It lets you focus on What the object does instead of how it does.
+The ways to achieve abstraction in java:
+       1.Abstract class - 0 to 100% 
+       2.Interface - 100% - Interface is loosely coupled so,we can reuse it easily.
+
+    1.Abstract class:
+          Abstratct class is an class which has both unimplemented methods and implemented methods.
+		  The class having an unimplemented methods is called ABSTRACT CLASS.
+          The unimplemented methods in the Abstract class can be used in future and it can be accessed by anytime.
+          The unimplemented methods in the Abstract class will kept unimplemented it does not matters.
+          It can be used in future when it need to be change.
+
+    2.Interface:
+         An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+		 The interface in Java is a mechanism to achieve abstraction
+         There can be only abstract methods in the Java interface, not method body.
+         It is used to achieve abstraction and multiple inheritance in Java.
+		       
+			     It is used to achieve abstraction.
+                 By interface, we can support the functionality of multiple inheritance.
+                 It can be used to achieve loose coupling  
+
+ENCAPSULATION:
+    The Process of wrapping of code and Data together into a Single unit is called Encapsulation.
+	It is the mechanism that binds together code and the data it manipulates.
+	Another way to think about encapsulation is,it is a protective shield that prevents the data from being accessed by the code outside this shield.
+	    
+		
+ 
+
+   
+ 
+   
+   	

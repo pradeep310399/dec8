@@ -1,0 +1,28 @@
+ Webdrivermanager is an Abstract class designed for SELENIUM.
+ It is designed by BONIGARCIA.
+ Abstract class of SELENIUM is BY();
+   
+   
+   
+   Chromedriver extends chromiumdriver -- class extends class
+       -->Chromedriver is a class.
+	   -->Chromiumdriver is a class.
+	   
+ Webdriver is an Interface of the SELENIUM.
+  
+
+    Webdriver extends SearchContext  -- Interface extends Interface
+	   -->Webdriver is a Interface
+	   -->SearchContext is a Interface.
+	   
+	  
+    RemoteWebDriver implements WebDriver -- class implements Interface
+          
+        RemoteWebdriver is a class.
+        WebDriver is a interface.	
+
+
+IMPORATANT NOTE:
+    *CLASS EXTENDS CLASS  
+    *INTERFACE EXTENDS INTERFACE 
+    *CLASS IMPLEMENTS INTERFACE	
